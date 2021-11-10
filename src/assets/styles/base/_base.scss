@@ -1,0 +1,92 @@
+@layer base {
+  body {
+    @apply text-2xl text-white font-normal font-body relative;
+    @apply lg:text-lg;
+  }
+
+  html{
+    @apply bg-white;
+  }
+
+  html,
+  body{
+    @apply overflow-x-hidden m-0;
+  }
+
+  h1,
+  .h1 {
+    @apply text-4xl tracking-sp1 leading-10 font-bold;
+    @apply md:text-6xl md:text-white md:leading-[80px];
+  }
+
+  h2,
+  .h2 {
+    @apply text-4xl font-bold tracking-sp4 leading-[57px] text-black;
+    @apply md:text-5xl;
+  }
+
+  h3,
+  .h3 {
+    @apply text-2xl leading-9 font-bold tracking-sp3 text-orange-100;
+    @apply md:text-h3-md;
+  }
+
+  h4,
+  .h4 {
+    @apply text-2xl font-medium leading-10 tracking-sp4 text-black;
+    @apply md:text-2xl;
+  }
+
+  h5,
+  .h5 {
+    @apply text-h5 font-bold text-white;
+    @apply md:text-h5-md;
+  }
+
+  h6,
+  .h6 {
+    @apply text-2xl font-normal tracking-sp5 text-white;
+    @apply md:text-h6-md;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    @apply mb-8;
+  }
+
+  a {
+    @apply text-black hover:text-orange-100 font-semibold lg:font-medium;
+  }
+
+  p,
+  li,
+  div{
+    @apply tracking-sp6 text-white;
+  }
+
+  p,
+  li,
+  ol,
+  ul,
+  blockquote,
+  figure{
+    // margin: 0 0 15px;
+  }
+
+  ol,
+  ul{
+    @apply block pl-20;
+  }
+
+  ol{
+    @apply list-decimal;
+  }
+
+  ul{
+    @apply list-disc;
+  }
+}

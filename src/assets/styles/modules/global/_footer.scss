@@ -1,0 +1,6 @@
+.footer {
+  a {
+    @apply hover:text-primary no-underline #{!important};
+  }
+}
+

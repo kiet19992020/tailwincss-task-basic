@@ -1,0 +1,8 @@
+.item-step-content {
+
+  @apply flex flex-col justify-between items-center py-10 md:flex-row;
+
+  .step-text {
+    @apply mx-9 max-w-xl text-center md:text-left;
+  }
+}

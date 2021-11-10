@@ -1,0 +1,36 @@
+@layer components {
+  .btn{
+    @apply mx-4 mb-8 px-10 py-8 font-semibold inline-block text-btn text-center tracking-sp7 select-none align-middle border-1 transition;
+  }
+  .btn-custom {
+    @apply inline-block text-2xl border  rounded-full transition-all px-12 py-3 mx-4;
+  }
+
+  .btn-orange {
+    @apply bg-orange-100 hover:bg-transparent hover:border-white border-transparent;
+  }
+
+  .btn-outline-orange {
+    @apply bg-transparent hover:bg-orange-100 hover:border-transparent border-white;
+  }
+
+  .btn-primary{
+    @apply bg-primary text-white border-primary;
+    @apply hover:bg-white hover:text-primary;
+  }
+
+  .btn-outline-primary{
+    @apply bg-white text-primary  border-primary;
+    @apply hover:bg-primary hover:text-white;
+  }
+
+  .btn-light{
+    @apply bg-white text-primary  border-white;
+    @apply hover:bg-transparent hover:text-white;
+  }
+
+  .btn-outline-light{
+    @apply text-white  border-white;
+    @apply hover:bg-white hover:text-primary;
+  }
+}
